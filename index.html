@@ -40,7 +40,7 @@
             <h2>Total Level</h2>
             <div class="bar">
               <div>
-                <span class="amount">1755</span>
+                <span class="amount">1853</span>
                 <span>/</span>
                 <span class="total">2277</span>
               </div>
@@ -64,43 +64,61 @@
         <section class="title">
           <h1>Personal Goals</h1>
         </section>
+        <h2>100m Total XP</h2>
+        <div class="bar">
+          <div>
+            <span class="amount">76</span>
+            <span>/</span>
+            <span class="total">100</span>
+          </div>
+          <div class="progress" id="goalTotal"></div>
+        </div>
         <h2>99 Farming</h2>
         <div class="bar">
           <div>
-            <span class="amount">97</span>
+            <span class="amount">99</span>
             <span>/</span>
             <span class="total">99</span>
           </div>
-          <div class="progress" id="goalOne"></div>
+          <div class="progress" id="goalFarm"></div>
+        </div>
+        <h2>99 Cooking</h2>
+        <div class="bar">
+          <div>
+            <span class="amount">99</span>
+            <span>/</span>
+            <span class="total">99</span>
+          </div>
+          <div class="progress" id="goalCook"></div>
         </div>
         <h2>Base 80's</h2>
         <div class="bar">
           <div>
-            <span class="amount">6</span>
+            <span class="amount">13</span>
             <span>/</span>
             <span class="total">23</span>
           </div>
-          <div class="progress" id="goalTwo"></div>
+          <div class="progress" id="goal80s"></div>
         </div>
         <h2>All Hard Diaries</h2>
         <div class="bar">
           <div>
-            <span class="amount">10</span>
+            <span class="amount">12</span>
             <span>/</span>
             <span class="total">12</span>
           </div>
-          <div class="progress" id="goalThree"></div>
+          <div class="progress" id="goalHards"></div>
         </div>
       </div>
       <div class="part">
         <section class="title">
-          <h1>Boss Kills v Pet Drop Rates</h1>
-          <p>No Pets received yet</p>
+          <h1>Pet Hunt</h1>
+          <p>KC / Pet drop rate</p>
         </section>
         <h2>Vorkath</h2>
         <div class="bar">
           <div>
-            <span class="amount">58</span>
+            <span class="amount">296</span>
             <span>/</span>
             <span class="total">3000</span>
           </div>
@@ -118,10 +136,11 @@
       </div>
     </main>
     <footer>
-      <p>Stats last updated on April 26th - 2019.</p>
+      <p>Stats last updated on July 22nd - 2019.</p>
       <p>Elempiar© 1842 - 2019</p>
     </footer>
   </body>
+
   <script>
     const progressBars = $(".bar");
     const doAnimation = progressBar => {
